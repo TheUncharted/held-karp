@@ -1,0 +1,26 @@
+# Rust
+**/target
+**/*.rs.bk
+
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.so
+.python-version
+.venv/
+
+# Editor
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Generated copies (CI creates these)
+crates/held-karp-py/README.md
+
+# Secrets
+.env

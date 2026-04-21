@@ -1,0 +1,15 @@
+[package]
+name = "held-karp-py"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Python bindings for the Held-Karp exact TSP solver"
+
+[lib]
+name = "held_karp"
+crate-type = ["cdylib"]
+
+[dependencies]
+held-karp-core = { path = "../held-karp-core" }
+pyo3.workspace = true

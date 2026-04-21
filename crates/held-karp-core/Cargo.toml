@@ -1,0 +1,12 @@
+[package]
+name = "held-karp-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Exact TSP solver using the Held-Karp bitmask dynamic programming algorithm"
+keywords = ["tsp", "held-karp", "optimization", "travelling-salesman", "combinatorics"]
+categories = ["algorithms", "science"]
+
+[lib]
+name = "held_karp_core"

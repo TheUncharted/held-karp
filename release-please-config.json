@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "component": "held-karp",
+      "include-component-in-tag": false,
+      "bump-minor-pre-major": true,
+      "bump-patch-for-minor-pre-major": true,
+      "extra-files": [
+        "Cargo.toml",
+        "crates/held-karp-core/Cargo.toml",
+        "crates/held-karp-py/Cargo.toml",
+        "crates/held-karp-py/pyproject.toml"
+      ]
+    }
+  }
+}
